@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Sky blue background */
+    display: flex;              /* Use flexbox for centering */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    height: 100vh;             /* Full viewport height */
+    margin: 0;                 /* Remove default margin */
+}
+
+form {
+    background-color: white;    /* White background for the form */
+    padding: 20px;              /* Padding inside the form */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    display: flex;              /* Use flexbox for layout */
+    flex-direction: column;     /* Stack elements vertically */
+    gap: 15px;                  /* Space between fields */
+    width: 300px;               /* Fixed width for the form */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;          /* Space above the table */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
